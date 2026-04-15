@@ -17,7 +17,7 @@ concurrency:
 jobs:
   bluebuild:
     name: Build Custom Image
-    runs-on: avrea-ubuntu-latest
+    runs-on: avrea-ubuntu-latest-4-vcpu
     permissions:
       contents: read
       packages: write
